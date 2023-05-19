@@ -1,0 +1,15 @@
+class Main
+{
+    main()
+    {
+        // Define a variable
+        var a = 10;
+
+        // string variable
+        var b = "Hello World";
+
+        Builtin.print1("Hello World {}\n", a);
+        Builtin.print2("Hello World {} {} \n", a, a);
+        Builtin.print3("Hello World {} {} {} \n", a, a, b);
+    }
+}

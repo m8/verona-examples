@@ -1,0 +1,22 @@
+class Main
+{
+    main()
+    {
+        var x = 1;
+
+
+        // If else statement
+        if (x == 1)
+        {
+            Builtin.print("x is 1");
+        }
+        else
+        {
+            Builtin.print("x is not 1");
+        }
+
+        
+
+    }
+
+}

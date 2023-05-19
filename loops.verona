@@ -1,0 +1,13 @@
+class Main
+{
+    main()
+    {
+        var counter = 0;
+
+        while(counter < 4)
+        {
+            Builtin.print1("counter {}\n", counter);
+            counter = counter + 1;
+        }
+    }
+}

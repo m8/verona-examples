@@ -1,0 +1,16 @@
+class Main
+{    
+    foo()
+    {
+        
+    }
+
+    main()
+    {
+        // Declares a function-level variable
+        var a : U64 & mut = 42;
+
+        // Updates a, still valid
+        a = 38;
+    }
+}

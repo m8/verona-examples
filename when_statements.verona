@@ -1,0 +1,21 @@
+// when statement works in asynchrnous way
+
+class Main
+{
+    foo()
+    {
+        var x = 2;
+        x;
+    }
+
+    main()
+    {
+        when (var x = Main.foo())
+        {
+            Builtin.print("x is 2");
+        }
+
+        Builtin.print("x is not 2");
+
+    }
+}
