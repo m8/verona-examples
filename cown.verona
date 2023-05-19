@@ -1,0 +1,25 @@
+class Foo
+{
+    x: U64 & imm;
+}
+
+class Main
+{
+    main()
+    {
+        var t = cown.create(new Foo);
+        var l = cown.create(new Foo);
+
+        when(t)
+        {
+            Builtin.print("Hello from t\n");
+        };
+
+        when(t)
+        {
+            Builtin.print("Hello from l\n");
+        };
+
+        Builtin.print("Goodbye\n");
+    }
+}
