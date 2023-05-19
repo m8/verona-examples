@@ -15,7 +15,7 @@ class Main
             Builtin.print("Hello from t\n");
         };
 
-        when(t)
+        when(l)
         {
             Builtin.print("Hello from l\n");
         };

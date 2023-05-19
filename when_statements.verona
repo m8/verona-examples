@@ -16,6 +16,5 @@ class Main
         }
 
         Builtin.print("x is not 2");
-
     }
 }
